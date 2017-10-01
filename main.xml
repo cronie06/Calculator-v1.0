@@ -1,0 +1,210 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+	android:fitsSystemWindows="true"
+	android:colorBackground="#C1BBBB"
+	android:foreground="#C1BBBB"
+	android:background="@drawable/customborder"
+	
+	>
+	
+	
+
+	<TextView
+		android:id ="@+id/tv2"
+        android:text="Author: Enrico Repalda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_below="@+id/btnrst"
+		android:layout_marginTop="20dp"
+		android:layout_marginLeft="50dp"
+	/>
+	
+	
+	
+    <TextView
+		android:id ="@+id/tv"
+        android:text=""
+		android:textSize="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_above="@+id/btn1"
+		android:layout_marginBottom="100dp"
+		android:layout_marginLeft="100dp"
+		android:maxLength="8"
+		/>
+	
+	<TextView
+		android:id ="@+id/tv3"
+        android:text=""
+		android:textSize="15dp"
+		android:textColor="#DA5151"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_above="@+id/tv"
+		android:layout_marginLeft="260dp"
+		android:maxLength="15"
+	/>
+	
+	
+	
+
+	<Button
+		android:id="@+id/btn1"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:text="1"  />
+	
+	 <Button
+		 android:id="@+id/btn2"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content" 
+		 android:layout_toRightOf="@+id/btn1"
+		 android:text="2"   />
+	 
+	<Button
+		android:id="@+id/btn3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_toRightOf="@+id/btn2"
+		android:text="3"  />
+	
+	<Button
+		android:id="@+id/btn4"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_below="@+id/btn1"
+		
+		android:text="4"  />
+	
+	<Button
+		android:id="@+id/btn5"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_toRightOf="@+id/btn4"
+		android:layout_below="@+id/btn2"
+		android:text="5"  />
+	
+	<Button
+		android:id="@+id/btn6"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_toRightOf="@+id/btn5"
+		android:layout_below="@+id/btn3"
+		android:text="6"  />
+	
+	<Button
+		android:id="@+id/btn7"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		
+		android:layout_below="@+id/btn4"
+		android:text="7"  />
+	
+	<Button
+		android:id="@+id/btn8"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_toRightOf="@+id/btn7"
+		android:layout_below="@+id/btn5"
+		android:text="8"  />
+	
+	<Button
+		android:id="@+id/btn9"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_toRightOf="@+id/btn8"
+		android:layout_below="@+id/btn6"
+		android:text="9"  />
+	
+
+	<Button
+		android:id="@+id/btnplus"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_toRightOf="@+id/btn3"
+	
+		android:text="+" />
+	
+	<Button
+		android:id="@+id/btnmns"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_toRightOf="@+id/btn6"
+	android:layout_below="@+id/btnplus"
+		android:text="-" />
+	
+	<Button
+		android:id="@+id/btntms"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_toRightOf="@+id/btn9"
+android:layout_below="@+id/btnmns"
+		android:text="*" />
+
+	<Button
+		android:id="@+id/btndiv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_toRightOf="@+id/btnrst"
+android:layout_below="@+id/btntms"
+		android:text="/" />
+	
+	<Button
+		android:id="@+id/btneqls"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/btn7"
+		android:text="="  />
+
+	<Button
+		android:id="@+id/btnexit"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/btneqls"
+		android:layout_below="@+id/btn8"
+		android:text="C"  
+		/>
+	
+	<Button
+		android:id="@+id/btndot"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="." 
+		android:layout_toRightOf="@+id/btnexit"
+		android:layout_below="@+id/btn9"
+		/>
+	
+	<Button
+		android:id="@+id/btnrst"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="exit"
+		android:layout_below="@+id/btneqls"
+		/>
+	
+	
+	<RadioButton
+		android:id="@+id/rb1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		
+		android:layout_above="@+id/btn1"
+		android:layout_marginBottom="10dp"
+		android:text="Off"
+	/>
+
+	<RadioButton
+		android:id="@+id/rb2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		
+		android:layout_above="@+id/rb1"
+		android:text="On"
+	/>
+	
+	
+	
+
+</RelativeLayout>
